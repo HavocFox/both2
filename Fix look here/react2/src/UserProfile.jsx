@@ -5,8 +5,8 @@ class UserProfile extends Component {
       super(props);
       this.state = { 
         name: 'Alex',
-        editMode: false,  // Add a flag for toggling between Edit and View modes
-        hobbies: ['Reading', 'Traveling', 'Gaming'],  // Example hobbies list
+        editMode: false,
+        hobbies: ['Reading', 'Traveling', 'Gaming'],
       };
       this.changeName = this.changeName.bind(this);
       this.toggleEditMode = this.toggleEditMode.bind(this);
